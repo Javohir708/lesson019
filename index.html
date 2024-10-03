@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <header class="header" data-aos="fade-down" data-aos-anchor=".navbar">
+      <div class="container">
+        <nav class="navbar">
+          <div class="navbar__logo" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="0">
+            <img src="assets/logo.svg" alt="Logo image" />
+          </div>
+          <ul class="navbar__collection">
+            <li class="navbar__item" data-aos="fade-left" data-aos-anchor=".navbar">
+              <a class="navbar__link" href="#"><span>Home</span></a>
+            </li>
+            <li class="navbar__item" data-aos="fade-left" data-aos-delay="200" data-aos-anchor=".navbar">
+              <a class="navbar__link" href="#"><span>Properties
+                <img class="properties__image" src="assets/expand_more.svg" alt="expand more image" /></span></a>
+            </li>
+            <li class="navbar__item" data-aos="fade-left" data-aos-delay="250" data-aos-anchor=".navbar">
+              <a class="navbar__link" href="#"><span>About</span></a>
+            </li>
+            <li class="navbar__item" data-aos="fade-left" data-aos-delay="350" data-aos-anchor=".navbar">
+              <a class="navbar__link" href="#"><span>Contact</span></a>
+            </li>
+            <li class="navbar__item" data-aos="fade-left" data-aos-delay="450" data-aos-anchor=".navbar">
+              <a class="navbar__link" href="#"><span>
+                <img class="search__image" src="assets/search.svg" alt="search image" />Search</span></a>
+            </li>
+          </ul>
+          <button class="header__btn cart" data-aos="zoom-in" data-aos-anchor=".navbar">
+            <i class="fa-solid fa-cart-shopping" style="color: #505255"></i>
+            Cart
+          </button>
+          <button class="header__btn" data-aos="zoom-in" data-aos-anchor=".navbar">Find a property</button>
+        </nav>
+      </div>
+    </header>
+    
+
+    <main class="main">
+      <section class="hero" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="container">
+          <div class="hero__wrpapper">
+            <div class="hero__text" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+              <strong>Find your dream place</strong>
+              <h3>Find house for your family in minutes</h3>
+              <p>
+                Aenean sodales mauris quis tellus facilisis, vel mattis magna.
+                Interdum curabitur eget aliquam elit in mauris purus.
+              </p>
+              <form action="">
+                <input
+                  class="hero__input"
+                  type="text"
+                  placeholder="Search"
+                  required
+                />
+                <button class="hero__btn" type="submit">Find property</button>
+              </form>
+            </div>
+            <div class="hero__image" data-aos="slide-left" data-aos-delay="400" data-aos-duration="1000">
+              <img src="assets/hero_image.png" alt="home image" />
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      <section class="works">
+        <div class="container">
+          <div class="works__text" data-aos="fade-up">
+            <h3>How it works</h3>
+            <p>
+              Nunc laoreet consequat nunc at consequat. Praesent aliquam mi id efficitur pellentesque. Maecenas varius felis felis.
+            </p>
+          </div>
+          <div class="works__wrappper">
+            <div class="works__card" data-aos="fade-up" data-aos-delay="100">
+              <div>
+                <img class="works_card_image" src="assets/works1.svg" alt="image" />
+              </div>
+              <strong>Find property</strong>
+              <p>
+                Odales mauris quis tellus facilisis, vel mattis magna interdum. Curabitur eget aliquam elit. In mauris purus, auctor a eleifend non.
+              </p>
+            </div>
+            <div class="works__card" data-aos="fade-up" data-aos-delay="350">
+              <div>
+                <img class="works_card_image" src="assets/works2.svg" alt="image" />
+              </div>
+              <strong>Make a deal</strong>
+              <p>
+                Pellentesque suscipit mauris. Nam dictum, erat a volutpat varius, urna nisi sollicitudin orci, sagittis facilisis odio tortor ac mi.
+              </p>
+            </div>
+            <div class="works__card" data-aos="fade-up" data-aos-delay="450">
+              <div>
+                <img class="works_card_image" src="assets/works3.svg" alt="image" />
+              </div>
+              <strong>Get your keys</strong>
+              <p>
+                Nulla vel bibendum purus. Etiam tempus quam vel pulvinar rutrum. Duis semper, metus vitae fermentum consequat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      <section class="comfort__house" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+            <div class="comfort__wrapper">
+                <div class="comfort__text" data-aos="fade-right" data-aos-delay="300">
+                    <strong>Comfort first</strong>
+                    <h3>The best houses for family comfort</h3>
+                    <p>Ectus ipsum faucibus justo, et semper quam nisl in nibh. Proin sollicitudin, lorem non posuere blandit.</p>
+                    <button data-aos="zoom-in" data-aos-delay="500">Explore properties</button>
+                    <a href="#" data-aos="fade-left" data-aos-delay="700">
+                        Contact agent
+                        <img src="assets/arrow_right.svg" alt="arrow right image">
+                    </a>
+                </div>
+                <div class="comfort__image" data-aos="fade-left" data-aos-delay="400">
+                    <img src="assets/comfort_house.png" alt="Comfort house image">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="prices" data-aos="fade-up" data-aos-duration="1000">
+      <div class="container">
+          <div class="prices__wrappper">
+              <div class="prices__image" data-aos="fade-left" data-aos-delay="300">
+                  <img src="assets/prices__image.png" alt="home image">
+              </div>
+              <div class="prices__text" data-aos="fade-right" data-aos-delay="300">
+                  <strong>Quick and easy</strong>
+                  <h3>Fast forward process</h3>
+                  <p>Ut vitae nisi eu nisi maximus condimentum ac id purus. Duis sit amet mi arcu praesent nec felis nisl.</p>
+                  
+                  <div class="pricecard__wrapper" data-aos="fade-up" data-aos-delay="500">
+                      <div class="price__card" data-aos="zoom-in" data-aos-delay="700">
+                          <div class="price__cardimage">
+                              <img src="assets/price1.svg" alt="image">
+                          </div>
+                          <h4>Affordable prices</h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                      </div>
+                      <div class="price__card" data-aos="zoom-in" data-aos-delay="900">
+                          <div class="price__cardimage">
+                              <img src="assets/price1.svg" alt="image">
+                          </div>
+                          <h4>Less paper work</h4>
+                          <p>Curabitur porta luctus semper donec eget lobortis leo ac finibus nisi.</p>
+                      </div>
+                  </div>
+                  <button data-aos="zoom-in" data-aos-delay="1000">Explore properties</button>
+                  <a href="#" data-aos="fade-left" data-aos-delay="1100">
+                      Contact agent
+                      <img src="assets/arrow_right.svg" alt="arrow right image">
+                  </a>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+
+      <section class="favorite">
+        <div class="container">
+          <div class="favorite__text__wrapper" data-aos="fade-up" data-aos-delay="100">
+            <div class="favorite__text">
+              <h4>Properties</h4>
+              <h3>Houses in your favorite area</h3>
+            </div>
+          </div>
+          <div class="favorite__wrapper">
+            <div class="favorite__card" data-aos="fade-up" data-aos-delay="100">
+              <div>
+                <img src="assets/favorite1.png" alt="home design image">
+              </div>
+              <h2>Cozy studio in Los Angeles</h2>
+              <strong>$ 1,200.00 USD</strong>
+              <h5>
+                <i class="fa-solid fa-location-dot" style="color: #565658;"></i> 2263 Southlea, Los Angeles
+              </h5>
+              <p>
+                <i class="fas fa-sink" style="color: #565658;"></i> 2
+              </p>
+              <p>
+                <i class="fa-solid fa-bed" style="color: #565658;"></i> 2
+              </p>
+              <p>
+                <img width="16px" src="assets/square_foot.svg" alt="image">
+                840 sqft
+              </p>
+            </div>
+            
+            <div class="favorite__card" data-aos="fade-up" data-aos-delay="200">
+              <div>
+                <img src="assets/favorite2.png" alt="home design image">
+              </div>
+              <h2>Tiny home in San Diego</h2>
+              <strong>$ 740,000.00 USD</strong>
+              <h5>
+                <i class="fa-solid fa-location-dot" style="color: #565658;"></i> 2263 Southlea, Los Angeles
+              </h5>
+              <p>
+                <i class="fas fa-sink" style="color: #565658;"></i> 1
+              </p>
+              <p>
+                <i class="fa-solid fa-bed" style="color: #565658;"></i> 2
+              </p>
+              <p>
+                <img width="16px" src="assets/square_foot.svg" alt="image">
+                400 sqft
+              </p>
+            </div>
+            
+            <div class="favorite__card" data-aos="fade-up" data-aos-delay="300">
+              <div>
+                <img src="assets/favorite3.png" alt="home design image">
+              </div>
+              <h2>Crown house in New York</h2>
+              <strong>$ 980,000.00 USD</strong>
+              <h5>
+                <i class="fa-solid fa-location-dot" style="color: #565658;"></i> 2263 Southlea, Los Angeles
+              </h5>
+              <p>
+                <i class="fas fa-sink" style="color: #565658;"></i> 2
+              </p>
+              <p>
+                <i class="fa-solid fa-bed" style="color: #565658;"></i> 4
+              </p>
+              <p>
+                <img width="16px" src="assets/square_foot.svg" alt="image">
+                3220 sqft
+              </p>
+            </div>
+            
+            <div class="favorite__card" data-aos="fade-up" data-aos-delay="400">
+              <div>
+                <img src="assets/favorite4.png" alt="home design image">
+              </div>
+              <h2>San Diego story</h2>
+              <strong>$ 3,700.00 USD</strong>
+              <h5>
+                <i class="fa-solid fa-location-dot" style="color: #565658;"></i> 2263 Southlea, Los Angeles
+              </h5>
+              <p>
+                <i class="fas fa-sink" style="color: #565658;"></i> 3
+              </p>
+              <p>
+                <i class="fa-solid fa-bed" style="color: #565658;"></i> 2
+              </p>
+              <p>
+                <img width="16px" src="assets/square_foot.svg" alt="image">
+                1840 sqft
+              </p>
+            </div>            
+            <div class="favorite__card" data-aos="fade-up" data-aos-delay="500">
+              <div>
+                <img src="assets/favorite5.png" alt="home design image">
+              </div>
+              <h2>Family house in Los Angeles</h2>
+              <strong>$ 4,200.00 USD</strong>
+              <h5>
+                <i class="fa-solid fa-location-dot" style="color: #565658;"></i> 2263 Southlea, Los Angeles
+              </h5>
+              <p>
+                <i class="fas fa-sink" style="color: #565658;"></i> 1
+              </p>
+              <p>
+                <i class="fa-solid fa-bed" style="color: #565658;"></i> 3
+              </p>
+              <p>
+                <img width="16px" src="assets/square_foot.svg" alt="image">
+                1400 sqft
+              </p>
+            </div>
+            
+            <div class="favorite__card" data-aos="fade-up" data-aos-delay="600">
+              <div>
+                <img src="assets/favorite6.png" alt="home design image">
+              </div>
+              <h2>Studio in Las Vegas</h2>
+              <strong>$ 820,000.00 USD</strong>
+              <h5>
+                <i class="fa-solid fa-location-dot" style="color: #565658;"></i> 2263 Southlea, Los Angeles
+              </h5>
+              <p>
+                <i class="fas fa-sink" style="color: #565658;"></i> 2
+              </p>
+              <p>
+                <i class="fa-solid fa-bed" style="color: #565658;"></i> 3
+              </p>
+              <p>
+                <img width="16px" src="assets/square_foot.svg" alt="image">
+                2400 sqft
+              </p>
+            </div>
+            
+            <div class="favorite__button_wrapper" data-aos="fade-up" data-aos-delay="700">
+              <button class="favorite__btn">Explore properties</button>
+              <a class="favorite__link" href="#">
+                Contact agent
+                <img src="assets/arrow_right.svg" alt="arrow right image">
+              </a>
+            </div>
+            
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+  </body>
+</html>
